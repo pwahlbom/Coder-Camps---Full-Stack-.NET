@@ -22,7 +22,6 @@ let customer3 = {
     }
 };
 
-
 var employee1 = {
     firstName: "",
     lastName: "",
