@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Typing Tutor</title>
+
+
+</head>
+
+<body id="idTypedCharacter">
+    <h1>Welcome to typing tutor</h1>
+
+    <h2>Let's get started :&emsp;<input type="button" value="Go" onclick="fctStart(true)"/></h2>
+    <br />
+
+    <fieldset id="idPlayArea">
+        <table>
+            <tr>
+                <td>
+                    <h3>Type :&emsp;</h3>
+                </td>
+                <td>
+                    <h1 id="idMatchCharacter">X</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Typed :&emsp;</h3>
+                </td>
+                <td>
+                    <h3 id="idFeedback"></h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Result :&emsp;</h3>
+                </td>
+                <td>
+                    <h3 id="idResult"></h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Score :&emsp;</h3>
+                </td>
+                <td>
+                    <h3 id="idScore"></h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>Accuracy :&emsp;</h3>
+                </td>
+                <td>
+                    <h3 id="idAccuracy"></h3>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <h2>Restart :&emsp;<input type="button" value="Go" onclick="fctRestart()" /></h2>
+    <br />
+    <hr />
+
+    <script src="js/typingtutor.js"></script>
+</body>
+</html>
